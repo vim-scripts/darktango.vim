@@ -1,7 +1,7 @@
 " Vim color file
 " Name: DarkTango
 " Maintainer: Panos Laganakos <panos.laganakos@gmail.com>
-" Version: 0.2
+" Version: 0.3
 
 
 set background=dark
@@ -44,8 +44,9 @@ hi Directory	guifg=#bbd0df
 "hi ErrorMsg
 hi VertSplit	guibg=#555753 guifg=#2e3436 gui=none
 hi Folded	guibg=#555753 guifg=#eeeeec
-hi FoldColumn	guibg=#000000 guifg=#FFFFFF
+hi FoldColumn	guibg=#2e3436 guifg=#555753
 hi LineNr	guibg=#2e3436 guifg=#555753
+hi MatchParen	guibg=#babdb6 guifg=#2e3436
 hi ModeMsg	guifg=#ce5c00
 hi MoreMsg	guifg=#ce5c00
 hi NonText	guibg=#2e3436 guifg=#555753
